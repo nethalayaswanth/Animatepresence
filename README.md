@@ -7,9 +7,8 @@ uses web animation api
 ## Install
 
 ```sh
-yarn add animatepresence 
-# or
-npm install animatepresence 
+
+npm install @monynethala/animatepresence 
 ```
 
 
@@ -19,9 +18,8 @@ npm install animatepresence
 
 ```tsx
 import { useState } from "react";
-import "./styles.css";
-import motion from "./motion";
-import { AnimatePresence } from "./animatePresence";
+
+import { AnimatePresence,Motion } from '@monynethala/animatepresence';
 export default function App() {
   const [show, setShow] = useState(true);
 
