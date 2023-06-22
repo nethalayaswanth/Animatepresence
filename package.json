@@ -1,5 +1,5 @@
 {
-  "name": "animatepresence",
+ "name": "@monynethala/animatepresence",
   "version": "1.0.0",
   "description": "A component to animate while mounting/unmounting.",
   "keywords": [
