@@ -1,11 +1,11 @@
 {
-  "name": "react-typescript",
+  "name": "animatepresence",
   "version": "1.0.0",
-  "description": "React and TypeScript example starter project",
+  "description": "A component to animate while mounting/unmounting.",
   "keywords": [
     "typescript",
     "react",
-    "starter"
+    "animatepresence","motion","animation"
   ],
   "main": "src/index.tsx",
   "dependencies": {
