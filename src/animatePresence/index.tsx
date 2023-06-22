@@ -40,7 +40,7 @@ function onlyElements(children: ReactNode): ReactElement<any>[] {
   return filtered;
 }
 
-export const AnimatePresence: React.FunctionComponent<React.PropsWithChildren<
+ const AnimatePresence: React.FunctionComponent<React.PropsWithChildren<
   AnimatePresenceProps
 >> = ({
   children,
@@ -193,3 +193,6 @@ export const AnimatePresence: React.FunctionComponent<React.PropsWithChildren<
     </>
   );
 };
+
+
+export default AnimatePresence
